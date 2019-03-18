@@ -1,0 +1,248 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Archivo', sans-serif;
+}
+
+.grid_container {
+    background-color: white;
+}
+
+@media only screen and (min-width: 720px) {
+    .head i {
+        display: none;
+    }
+    .nav i {
+        display: none;
+    }
+    .img1 img {
+        position: relative;
+        top: -190px;
+    }
+    
+}
+
+@media only screen and (max-width: 720px) {
+    .up_head {
+        display: none;
+    }
+    .up_nav {
+        display: none;
+    }
+}
+
+.head {
+    background-color: #EEDB15;
+    height: 4.15em;
+}
+
+.up_head{
+    float: right;
+    margin-right: 15%;
+}
+.up_head li{
+    display: inline;
+    margin-left: 2%;
+
+    position: relative;
+    top: 0.625em;
+}
+
+.up_head li i{
+    display: inline-block;
+   
+}
+
+#fas1 {
+    font-size: 1.78em;
+    padding: 0.25em 0.6em 0.25em 0.6em;
+    margin: 0.4em 0.25em 0.25em 0.7em;
+    border: solid white 0.01em;
+    opacity: 0.5;
+    color: white;
+}
+
+.down_head {
+    background-color: #EEDB15;
+    height: 4.15em;
+    display: block;
+}
+
+.nav {
+    background-color: white;
+    height: 4.15em;
+    /* display: block; */
+}
+
+.up_nav{
+    margin-left: 35%;
+}
+.up_nav li{
+    display: inline;
+    margin-left: 2%;
+
+    position: relative;
+    top: 0.625em;
+}
+
+/* .url1_autorijbewijs {
+    position: relative;
+    top: 0.625em;
+    left: 25%;
+    display: block;
+}
+.url2_motorrijbewijs {
+    position: relative;
+    top: -22px;
+    left: 35%;
+    display: block;
+}
+.url3_theorieles {
+    position: relative;
+    top: -54px;
+    left: 45%;
+    display: block;
+}
+.url4_opfriscurcus {
+    position: relative;
+    top: -87px;
+    left: 53%;
+    display: block;
+}
+.url5_contact {
+    position: relative;
+    top: -120px;
+    left: 63%;
+    display: block;
+} */
+
+.down_nav {
+    background-color: white;
+    height: 4.15em;
+    display: block;
+}
+
+#fas2 {
+    font-size: 1.78em;
+    padding: 0.25em 0.6em 0.25em 0.6em;
+    margin: 0.4em 0.25em 0.25em 0.7em;
+    border: solid black 0.01em;
+    opacity: 0.5;
+}
+
+.icon2 i {
+    font-size: 4.6875em;
+    color: gray;
+    position: relative;
+    top: 10%;
+    left: 23%;
+}
+
+.nav img {
+    float: right;
+    margin: 0.3em 8% 0em 0em;
+    height: 5.9375em;
+    width: 6.5625em;
+    position: relative;
+    top: -60px;
+    /* left: -1100px */
+}
+
+.img1 {
+    height: 37.5em;
+}
+
+.img1 img {
+    position: relative;
+    top: -70px;
+    height: 100%;
+    width: 100%;
+}
+
+.text_proefles, .text_locaties, .text_rijlessen {
+    background-color: white;
+    /* height: 41.25em; */
+    display: block;
+    width: 80%;
+    margin: 0em 10% 0em 10%;
+}
+
+.icon_kopje {
+    width: 80%;
+    position: relative;
+    top: 3.4375em;
+    left: 5%;
+}
+
+.icon_kopje i {
+    font-size: 3.15em;
+    color: gray;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+.icon_kopje h1 {
+    position: relative;
+    top: -75px;
+    left: 25%;
+    font-size: 2.75em;
+}
+
+.border {
+    border-bottom: 2px solid gray;
+    margin-left: 1.25em;
+    width: 56.25em;
+}
+
+.text_proefles p {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    font-size: 1.25em;
+    display: block;
+}
+
+.button_proefles {
+    background-color: #FFC114;
+    width: 75%;
+    padding: 0.5em 0em 0.5em 0em;
+    margin-top: 3em;
+}
+
+.text_locaties p {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    font-size: 1.25em;
+    display: block;
+}
+
+.text_rijlessen p {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    font-size: 1.25em;
+    display: block;
+}
+
+.movie {
+    margin: 4em 3% 0em 3%;
+    position: relative;
+    padding-bottom: 51.44%;
+    height: 0;
+}
+
+.movie iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background-color: #EEDB15;
+    height: 4.15em;
+}
+
+.footer footer {
+    line-height: 3.75em;
+    margin-left: 62.5em;
+}
